@@ -1,0 +1,28 @@
+dataset,rows,column,pandas_type,description
+patients.csv,1000,patient_id,object,Identifier of a patient record
+patients.csv,1000,name,object,Patient name field; do not publish without checking privacy and licence
+patients.csv,1000,age,int64,Patient age as recorded
+patients.csv,1000,arrival_date,object,Patient arrival date
+patients.csv,1000,departure_date,object,Patient departure date
+patients.csv,1000,service,object,Hospital department or service category
+patients.csv,1000,satisfaction,int64,Patient satisfaction score in patient records
+services_weekly.csv,208,week,int64,Recorded week number
+services_weekly.csv,208,month,int64,Recorded month number
+services_weekly.csv,208,service,object,Hospital department or service category
+services_weekly.csv,208,available_beds,int64,Available beds recorded for department-week
+services_weekly.csv,208,patients_request,int64,Patient requests recorded for department-week
+services_weekly.csv,208,patients_admitted,int64,Admissions recorded for department-week
+services_weekly.csv,208,patients_refused,int64,Refusals recorded for department-week
+services_weekly.csv,208,patient_satisfaction,int64,Patient satisfaction score in weekly service data
+services_weekly.csv,208,staff_morale,int64,Staff morale score in weekly service data
+services_weekly.csv,208,event,object,Recorded event category
+staff.csv,110,staff_id,object,Staff identifier; IDs differ between staff master and schedule
+staff.csv,110,staff_name,object,Staff name field; do not publish without checking privacy and licence
+staff.csv,110,role,object,Staff job role
+staff.csv,110,service,object,Hospital department or service category
+staff_schedule.csv,6552,week,int64,Recorded week number
+staff_schedule.csv,6552,staff_id,object,Staff identifier; IDs differ between staff master and schedule
+staff_schedule.csv,6552,staff_name,object,Staff name field; do not publish without checking privacy and licence
+staff_schedule.csv,6552,role,object,Staff job role
+staff_schedule.csv,6552,service,object,Hospital department or service category
+staff_schedule.csv,6552,present,int64,Recorded staff presence indicator (1/0)
